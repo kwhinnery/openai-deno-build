@@ -3,7 +3,7 @@
  */
 import { type Shims } from "./registry.ts";
 import { getRuntime as getWebRuntime } from "./web-runtime.ts";
-import { ReadStream as FsReadStream } from "https://deno.land/std@0.177.0/node/fs.ts";
+import { ReadStream as FsReadStream } from "@std/node/fs";
 
 export function getRuntime(): Shims {
   const runtime = getWebRuntime();

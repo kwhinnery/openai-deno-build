@@ -1,6 +1,6 @@
 import OpenAI from "npm:openai";
 import { OpenAIError } from "../error.ts";
-import { PassThrough } from "https://deno.land/std@0.177.0/node/stream.ts";
+import { PassThrough } from "@std/node/stream";
 import {
   type ChatCompletionFunctionRunnerParams,
   type ChatCompletionRunner,
