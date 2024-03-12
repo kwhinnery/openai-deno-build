@@ -1,6 +1,6 @@
 {
   "name": "@kwhinnery/openai",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "exports": "./mod.ts",
   "imports": {
     "@std/node": "jsr:@std/node@0.177.0"
